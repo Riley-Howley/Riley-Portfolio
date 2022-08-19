@@ -23,25 +23,21 @@
     <div id="fullpage">
         <section class="section s1">
             <header class="top">
-                <nav class="navbar navbar-expand-sm navbar-toggleable-sm pt-5 pb-2">
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm pt-5 pb-2 d-flex">
                     <a class="nav-h1 navbar-brand ms-5 me-auto fs-1" href="#">RHOWLEY</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon me-2"><i class="nav-icon fa-solid fa-bars fa-lg"></i></span>
-                    </button>
-                    <div class="smenu navbar-collapse collapse social-media">
-                        <ul class="ms-md-auto list-unstyled d-flex justify-content-center mb-0">
-                            <li class="me-5 ms-5">
+                      <div class="menu-items d-flex justify-content-center align-items-center">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li class="me-4">
                                 <a href="" class="text-green"><i class="fa-brands fa-github-square fa-2xl"></i></a>
                             </li>
-                            <li class="me-5">
+                            <li class="me-4">
                                 <a href="" class="text-green"><i class="fa-brands fa-stack-overflow fa-2xl"></i></a>
                             </li>
-                            <li class="me-5">
+                            <li class="me-4">
                                 <a href="" class="text-green"><i class="fa-brands fa-discord fa-2xl"></i></a>
                             </li>
                         </ul>
-                    </div>                    
+                      </div>                  
                 </nav>
                 <div class="banner position-relative">
                     <div class="position-absolute end-0 riley-photo"></div>
@@ -177,7 +173,7 @@
         var myFullpage = new fullpage('#fullpage', {
           dropEffect: true,
           anchors: ['firstPage', 'secondPage', '3rdPage','4thPage', '5thPage', '6thPage','7thPage', '8thPage',],
-          navigation: true,
+          navigation: false,
           navigationPosition: 'left',
           navigationTooltips: ['Home Page', 'About Page', 'Services Page', 'Skills Page', 'Experience Page', 'Education Page', 'Projects Page', 'Contact Page'],
           });
