@@ -138,8 +138,6 @@ body {
 
 /*Services*/
 .services {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../images/footer_lodyas.png");
-    background-repeat: repeat;
     min-height: 100vh;
     width: 60%;
     margin: auto;
@@ -210,6 +208,40 @@ body {
 .menu-items ul li {
     padding-left: 80px;
 }
+
+/*SKILLS*/
+
+.skills {
+    width: 100%;
+    height: 100vh;
+}
+
+.skills h1 {
+    margin-bottom: 80px;
+}
+
+.skills-container {
+    width: 80%;
+    margin: auto;
+}
+
+.skill-header i {
+    font-size: 6em;
+}
+
+.skills-row {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.skill-header {
+    margin-bottom: 20px;
+}
+
 
 
 /*DEVICE RESPONSIVE*/
@@ -324,6 +356,14 @@ body {
     .skills-row {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .skills-container {
+        margin-bottom: 40px;
+    }
+
+    .skills-row {
+        padding-bottom: 20px;
     }
 
     .experience-row {
