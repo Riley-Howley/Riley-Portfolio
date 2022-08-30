@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c4bc380e37.js" crossorigin="anonymous"></script>
@@ -25,7 +26,7 @@
         <section class="section s1">
             <header class="top">
                 <nav class="navbar navbar-expand-sm navbar-toggleable-sm pt-5 pb-2 d-flex">
-                    <a class="nav-h1 navbar-brand ms-5 me-auto fs-1" href="#">RHOWLEY</a>
+                    <a class="nav-h1 navbar-brand ms-5 me-auto" href="#">RHOWLEY</a>
                       <div class="menu-items d-flex justify-content-center align-items-center">
                         <ul class="list-unstyled d-flex justify-content-center mb-0">
                             <li class="me-4">
@@ -52,7 +53,7 @@
                             Developer
                         </h1>
                         <div class="buttons d-flex justify-content-center flex-row mt-4 flex-wrap">
-                            <a style="background-color: rgb(88, 40, 199);" href="#download"
+                            <a href="CV.pdf" download="CV" style="background-color: rgb(88, 40, 199);"
                                class="download p-3 pe-5 ps-5 me-3 fs-4 fw-bold text-white btn">
                                 Download
                                 CV
@@ -70,97 +71,21 @@
                         <div class="about-photo"></div>
                     </div>
                 </div>
-                <div class="about-info animate" data-anim-type="fadeInLeft">
+                <div class="about-info animate"  data-aos="fade-right">
                     <h1 id="about" class="about-head text-center fw-bold display-3 text-green">About</h1>
                     <hr class="bg-green mx-auto">
                     <div class="para align-items-space-around">
-                        <p class="about-text fs-4 text-white">My name is Riley Howley, and I am a 2022 Graduate of the Bachelor of Information Technology majoring in Programming and Software Development. During my studies I really pushed myself to experience the IT industry, securing an internship within my first year. During my second and third year I worked as a development engineer developing software solutions for a local business. I have developed multiple applications such as a power SMS monitor and a ticket distribution application for assigning work tickets to technicians. I pride myself on my problem solving and project management skills. Working as a developer I learnt that downtime is very important. I love to watch boxing, learn 3d modelling and riding motorcycles. I am currently working towards owning my very first Harley Davidson. Contact me let’s get in touch and change the future of IT.</p>
+                        <p class="about-text fs-4 text-white">Hello, my name is Riley, and I will be the software industry's future. I am a pationate and focused developer who is eager to collaborate with experts in the field.</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section s3">
-            <div class="services pt-5 position-relative">
-                <h1 class="d-flex justify-content-center fw-bold text-green display-3">My Services</h1>
-                <hr class="service-hr mx-auto mb-4">
-                <div class="d-flex justify-content-around flex-wrap">
-                        <div class="service-row d-flex justify-content-around">
-                            <div class="flip-card">
-                                <div class="flip-card-inner position-relative text-center ">
-                                    <div class="flip-card-front position-absolute">
-                                        <div class="service-container bg-white" style="background-image: url('images/Services/ano-web.jpg'); background-size: cover"></div>
-                                    </div>
-                                    <div class="flip-card-back position-absolute">
-                                        <h2 class="text-white mt-4">Mobile Application Development</h2>
-                                        <p class="text-white">Stunning Android and IOS applications using Flutter</p>
-                                        <div class="icons d-flex justify-content-around">
-                                            <i class="devicon-android-plain text-white"></i>
-                                            <i class="devicon-apple-original text-white"></i>
-                                            <i class="devicon-flutter-plain text-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flip-card">
-                                <div class="flip-card-inner position-relative text-center ">
-                                    <div class="flip-card-front position-absolute">
-                                        <div class="service-container bg-white" style="background-image: url('images/Services/preview.jpg'); background-size: cover"></div>
-                                    </div>
-                                    <div class="flip-card-back position-absolute">
-                                        <h2 class="text-white mt-4">Database Development</h2>
-                                        <p class="text-white">Database Management Systems using MySql, Sql and Sqlite</p>
-                                        <div class="icons d-flex justify-content-around">
-                                            <i class="devicon-microsoftsqlserver-plain-wordmark text-white"></i>                                            
-                                            <i class="devicon-mysql-plain-wordmark text-white"></i>          
-                                            <i class="devicon-sqlite-plain-wordmark text-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>             
-                        </div>
-                        <div class="service-row d-flex justify-content-around">
-                            <div class="flip-card">
-                                <div class="flip-card-inner position-relative text-center ">
-                                    <div class="flip-card-front position-absolute">
-                                        <div class="service-container bg-white" style="background-image: url('images/Services/webapp.jpg'); background-size: cover"></div>
-                                    </div>
-                                    <div class="flip-card-back position-absolute">
-                                        <h2 class="text-white mt-4">Web Application Development</h2>
-                                        <p class="text-white">Stunning Web apps built with .NETCore, C# and React.</p>
-                                        <div class="icons d-flex justify-content-around">
-                                            <i class="devicon-dotnetcore-plain text-white"></i>
-                                            <i class="devicon-csharp-plain text-white"></i>
-                                            <i class="devicon-react-original-wordmark text-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flip-card">
-                                <div class="flip-card-inner position-relative text-center ">
-                                    <div class="flip-card-front position-absolute">
-                                        <div class="service-container bg-white" style="background-image: url('images/Services/web.jpg'); background-size: cover"></div>
-                                    </div>
-                                    <div class="flip-card-back position-absolute">
-                                        <h2 class="text-white mt-4">Website Development</h2>
-                                        <p class="text-white">Stunning Websites built with Html, CSS and Javascript</p>
-                                        <div class="icons d-flex justify-content-around">
-                                            <i class="devicon-html5-plain-wordmark text-white"></i>
-                                            <i class="devicon-css3-plain-wordmark text-white"></i>
-                                            <i class="devicon-javascript-plain text-white"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>             
-                        </div>
-                    </div>
-                </div>
         </section>
         <section class="section s4">
             <div class="skills pt-5 position-relative">
                 <h1 class="d-flex justify-content-center fw-bold text-green display-3">My Skills</h1>
                 <hr class="skills-hr bg-green mx-auto">
                 
-                <div class="skills-row">
+                <div class="skills-row"  data-aos="fade-up">
                     <div class="skills-container">
                         <div class="skill-header"> 
                             <i class="devicon-html5-plain colored"></i>
@@ -187,7 +112,7 @@
                     </div>                    
                 </div>
                 
-                <div class="skills-row">
+                <div class="skills-row"  data-aos="fade-up">
                     <div class="skills-container">
                         <div class="skill-header"> 
                             <i class="devicon-flutter-plain colored"></i>
@@ -213,7 +138,7 @@
                         <h3 class="display-8 text-white">Asp.Net Core: Intermediate</h2>
                     </div>
                 </div>                
-                <div class="skills-row">
+                <div class="skills-row"  data-aos="fade-up">
                     <div class="skills-container">
                         <div class="skill-header"> 
                             <i class="devicon-microsoftsqlserver-plain colored"></i>
@@ -246,7 +171,7 @@
                 <h1 class="d-flex justify-content-center fw-bold text-green display-3">Soft Skills</h1>
                 <hr class="soft-hr bg-green mx-auto">
                 <div class="d-flex justify-content-around flex-wrap">
-                <div class="soft-container">
+                <div class="soft-container"  data-aos="fade-in">
                     <div class="skill-column">
                         <div class="card">
                             <div class="box">
@@ -371,26 +296,26 @@
                 <h1 class="fw-bold text-green display-3">Experience</h1>
                 <hr class="experience-hr bg-green mx-auto">
                 <div class="experience-row d-flex justify-content-center align-content-center">
-                    <div class="logo-con"></div>
-                    <div class="work-desc align-self-center">
-                        <div class="work-years">
+                    <div class="logo-con" data-aos="fade-right"></div>
+                    <div class="work-desc d-flex justify-content-center align-content-center">
+                        <div class="work-years d-flex justify-content-center align-content-center flex-column">
                             <h4 class="text-white fw-bold text-center pt-3">VelocityNet - Developer Engineer</h4>
                             <h4 class="text-green fw-bold text-center pt-1">2021 - Present</h4>
-                            <p class="text-white text-center">
-                                My role at VelocityNet was developing software applications to solve problems. My first problem was to develop a mobile application that sends all the technicians a text message when the power goes out. This was crucial as they are an ISP. My second problem was customers were unsure when their technician would arrive and have left. Due to health and safety, I was tasked to develop an application that staff can assign job tickets to technicians, and they are able to send alerts to customers based on the status of the ticket.
+                            <p class="text-white text-left fs-5">
+                                I was tasked with creating applications at VelocityNet to address client issues. These issues included both web and mobile applications. 
                             </p>
                             <div class="d-flex flex-row mt-4 justify-content-center ">
-                                <a href="https://www.velocitynet.co.nz" class="button-ex bg-green text-white text-decoration-none">Check Them Out</a>
+                                <a href="velocity.html" class="button-ex bg-green text-white text-decoration-none">View my Progress</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="experience-row d-flex justify-content-center align-content-center">
-                    <div class="work-desc-2 align-self-center">
-                        <div class="work-years">
+                    <div class="work-desc-2 d-flex justify-content-center align-content-center">
+                        <div class="work-years d-flex justify-content-center align-items-center flex-column">
                             <h4 class="text-white fw-bold text-center pt-3">Digital Stock - 6 Month Internship</h4>
                             <h4 class="text-green fw-bold text-center pt-1">2020 - 2020</h4>
-                            <p class="text-white text-center">
+                            <p class="text-white text-center fs-5">
                                 During my first year of my degree, I wanted to get a taste of the IT industry, more specifically programming and development. I was an intern at digital stock for 5 months where I learnt asp.net and MySQL.
                             </p>
                             <div class="d-flex flex-row mt-4 justify-content-center">
@@ -398,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="logo-con-2"></div>
+                    <div class="logo-con-2" data-aos="fade-left"></div>
                 </div>
             </div>
         </section>
@@ -414,7 +339,7 @@
                                 <div class="timeline-content">
                                 </div>
                             </li>
-                            <li class="timeline-item">
+                            <li class="timeline-item" data-aos="fade-right">
                                 <div class="timeline-marker"></div>
                                 <div class="timeline-content">
                                     <h3 class="timeline-title text-green fw-bold">
@@ -433,7 +358,7 @@
                                     </p>
                                 </div>
                             </li>
-                            <li class="timeline-item">
+                            <li class="timeline-item" data-aos="fade-right">
                                 <div class="timeline-info">
                                 </div>
                                 <div class="timeline-marker"></div>
@@ -454,7 +379,7 @@
                                     </p>
                                 </div>
                             </li>
-                            <li class="timeline-item">
+                            <li class="timeline-item" data-aos="fade-right">
                                 <div class="timeline-info">
                                 </div>
                                 <div class="timeline-marker"></div>
@@ -487,17 +412,24 @@
                     <a href="https://github.com/Riley-Howley"><button class="button" role="button">View All Projects</button></a>
                 </div>
                 <hr class="projects-hr">
-                <div class="featured-projects d-flex justify-content-around flex-wrap mt-5">
+                <div class="featured-projects d-flex justify-content-around flex-wrap mt-5" data-aos="fade-up">
                     <div class="project-col">
                         <div class="project">
-                            <img src="images/Projects/wendon.png" alt="VTM">
+                            <iframe width="1000" height="500" src="https://www.youtube.com/embed/1UzkZod1Lig?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <h4 class="text-green mt-2">Wendon Creek Contracting</h4>
+                        <h4 class="text-green mt-2">Velocity Technician Management</h4>
                         <a class="text-white fw-bold" href="">View Here</a>
                     </div>
                     <div class="project-col">
                         <div class="project">
-                            <img src="images/Projects/wendon.png" alt="VTM">
+                            <iframe width="1000" height="500" src="https://www.youtube.com/embed/ysOYsk3c4yM?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h4 class="text-green mt-2">PowerSMS</h4>
+                        <a class="text-white fw-bold" href="">View Here</a>
+                    </div>
+                    <div class="project-col">
+                        <div class="project">
+                            <iframe width="1000" height="500" src="https://www.youtube.com/embed/k_9a0EXusLM?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <h4 class="text-green mt-2">Wendon Creek Contracting</h4>
                         <a class="text-white fw-bold" href="">View Here</a>
@@ -514,8 +446,6 @@
                                 <div class="contact col-md-6">
                                     <h3 class="heading mb-4 fw-bold text-green display-4">Let's Chat! Enquire now</h3>
                                     <p><img src="images/undraw_programming_re_kg9v.svg" alt="Image" class="img-fluid"></p>
-
-
                                 </div>
                                 <div class="contact col-md-6 d-flex justify-content-center align-items-center">
 
@@ -535,10 +465,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             <div class="footer-basic">
                 <footer>
                 <div class="social"><a href="https://github.com/Riley-Howley"><i class="text-green fa-brands fa-github-square fa-xl"></i></a><a href="https://stackoverflow.com/users/16639781/riley-howley"><i class="text-green fa-brands fa-stack-overflow fa-xl"></i></a><a href="https://www.instagram.com/riley_howley_dev/"><i class="text-green fa-brands fa-instagram fa-xl"></i></a></div>                
@@ -562,5 +488,9 @@
     <div class="slider"></div>
 
     <script src="js/site.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
